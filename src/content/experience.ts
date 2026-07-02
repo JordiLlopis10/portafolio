@@ -33,18 +33,5 @@ export const experience: Experience[] = [
       "Configuración de puestos de trabajo, redes locales e impresoras.",
     ],
     tech: ["Windows", "Redes", "Hardware", "Soporte"],
-  },
-  {
-    role: "Mozo de Almacén",
-    company: "Masymas",
-    location: "Comunidad Valenciana",
-    period: "Feb 2023 — Ago 2023 · Jun 2024 — Sep 2024",
-    summary:
-      "Nueve meses de trabajo en logística compaginados con los estudios de DAW.",
-    highlights: [
-      "Trabajo en equipo bajo presión con plazos y objetivos diarios.",
-      "Constancia y responsabilidad: compaginé el trabajo con el ciclo superior.",
-    ],
-    tech: ["Trabajo en equipo", "Organización"],
-  },
+  }
 ];
