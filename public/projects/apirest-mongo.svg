@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="API REST con Flask y MongoDB">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="-5%" r="95%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.26"/>
+      <stop offset="55%" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#f4f4f5" stroke-opacity="0.04"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#0b0b10"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+
+  <!-- Documento JSON -->
+  <g font-family="ui-monospace, 'Cascadia Code', Consolas, monospace" font-size="19">
+    <rect x="660" y="140" width="420" height="290" rx="16" fill="#101014" stroke="#26262e"/>
+    <text x="692" y="195" fill="#71717a">{</text>
+    <text x="716" y="230" fill="#a5b4fc">"_id"<tspan fill="#71717a">:</tspan> <tspan fill="#a1a1aa">ObjectId(…)</tspan>,</text>
+    <text x="716" y="265" fill="#a5b4fc">"method"<tspan fill="#71717a">:</tspan> <tspan fill="#34d399">"GET"</tspan>,</text>
+    <text x="716" y="300" fill="#a5b4fc">"route"<tspan fill="#71717a">:</tspan> <tspan fill="#34d399">"/api/items"</tspan>,</text>
+    <text x="716" y="335" fill="#a5b4fc">"status"<tspan fill="#71717a">:</tspan> <tspan fill="#fbbf24">200</tspan></text>
+    <text x="692" y="385" fill="#71717a">}</text>
+  </g>
+
+  <!-- CRUD -->
+  <g font-family="ui-monospace, Consolas, monospace" font-size="18">
+    <text x="660" y="500" fill="#34d399">POST</text>
+    <text x="760" y="500" fill="#38bdf8">GET</text>
+    <text x="840" y="500" fill="#fbbf24">PUT</text>
+    <text x="920" y="500" fill="#f87171">DELETE</text>
+  </g>
+
+  <!-- Título -->
+  <text x="120" y="180" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24" letter-spacing="6" fill="#71717a">BACKEND · API REST</text>
+  <text x="118" y="250" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="#f4f4f5">API REST</text>
+  <text x="118" y="320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="url(#accent)">Flask + Mongo</text>
+
+  <text x="120" y="580" font-family="ui-monospace, Consolas, monospace" font-size="20" fill="#71717a">Python · Flask · MongoDB · CRUD</text>
+</svg>

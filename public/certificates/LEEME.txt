@@ -1,0 +1,8 @@
+Guarda aquí los PDF de tus certificados con estos nombres exactos
+(son los que espera src/content/certifications.ts):
+
+  certificado-desarrollo-con-ia.pdf   → "Iniciación al Desarrollo con IA: Programa con Agentes" (MoureDev × BIG School)
+  certificado-seo-ia-google.pdf       → "SEO para IA y Google" (BIGSEO × BIG School)
+
+Para añadir más certificados, consulta docs/CONTENT-GUIDE.md.
+Este archivo puede borrarse una vez colocados los PDF.

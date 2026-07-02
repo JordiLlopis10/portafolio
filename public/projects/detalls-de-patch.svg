@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Detalls de Patch — web en producción">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="-5%" r="95%">
+      <stop offset="0%" stop-color="#e0559a" stop-opacity="0.26"/>
+      <stop offset="55%" stop-color="#e0559a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#f4f4f5" stroke-opacity="0.04"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#e0559a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#0b0b10"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+
+  <!-- Retales de patchwork cosidos -->
+  <g transform="rotate(-4 880 300)">
+    <rect x="720" y="160" width="110" height="110" rx="10" fill="#101014" stroke="#e0559a" stroke-opacity="0.6"/>
+    <rect x="842" y="160" width="110" height="110" rx="10" fill="#101014" stroke="#26262e"/>
+    <rect x="720" y="282" width="110" height="110" rx="10" fill="#101014" stroke="#26262e"/>
+    <rect x="842" y="282" width="110" height="110" rx="10" fill="#101014" stroke="#f472b6" stroke-opacity="0.55"/>
+    <!-- puntadas -->
+    <line x1="736" y1="215" x2="814" y2="215" stroke="#a1a1aa" stroke-width="2" stroke-dasharray="7 6"/>
+    <line x1="858" y1="337" x2="936" y2="337" stroke="#a1a1aa" stroke-width="2" stroke-dasharray="7 6"/>
+    <!-- corazón cosido -->
+    <path d="M897 197 c-7-9-21-8-26 2 c-5-10-19-11-26-2 c-7 9-2 21 12 31 l14 10 l14-10 c14-10 19-22 12-31 z" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-dasharray="6 5" transform="translate(-124 122)"/>
+    <!-- botón -->
+    <circle cx="897" cy="215" r="17" fill="none" stroke="#e0559a" stroke-width="2.5"/>
+    <circle cx="891" cy="210" r="2.2" fill="#e0559a"/>
+    <circle cx="903" cy="210" r="2.2" fill="#e0559a"/>
+    <circle cx="891" cy="221" r="2.2" fill="#e0559a"/>
+    <circle cx="903" cy="221" r="2.2" fill="#e0559a"/>
+  </g>
+
+  <!-- Estado en producción -->
+  <g font-family="ui-monospace, Consolas, monospace" font-size="19">
+    <rect x="720" y="470" width="300" height="52" rx="26" fill="#101014" stroke="#26262e"/>
+    <circle cx="754" cy="496" r="6" fill="#6ee7b7"/>
+    <text x="776" y="503" fill="#a1a1aa">detallsdepatch.es</text>
+  </g>
+
+  <!-- Título -->
+  <text x="120" y="180" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24" letter-spacing="6" fill="#71717a">FULL-STACK · EN PRODUCCIÓN</text>
+  <text x="118" y="250" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="#f4f4f5">Detalls</text>
+  <text x="118" y="320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="url(#accent)">de Patch</text>
+
+  <text x="120" y="580" font-family="ui-monospace, Consolas, monospace" font-size="20" fill="#71717a">Vue.js · Flask · MySQL · SEO local · Reservas online</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Sistema de Gestión de Biblioteca">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="-5%" r="95%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#f4f4f5" stroke-opacity="0.04"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#0b0b10"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+
+  <!-- Lomos de libros -->
+  <g>
+    <rect x="700" y="200" width="52" height="260" rx="8" fill="#101014" stroke="#26262e"/>
+    <rect x="764" y="170" width="52" height="290" rx="8" fill="#101014" stroke="#fbbf24" stroke-opacity="0.55"/>
+    <rect x="828" y="220" width="52" height="240" rx="8" fill="#101014" stroke="#26262e"/>
+    <rect x="892" y="185" width="52" height="275" rx="8" fill="#101014" stroke="#26262e"/>
+    <rect x="962" y="200" width="52" height="260" rx="8" fill="#101014" stroke="#fb923c" stroke-opacity="0.55" transform="rotate(9 988 460)"/>
+    <text x="790" y="330" font-family="ui-monospace, Consolas, monospace" font-size="17" fill="#a1a1aa" transform="rotate(90 790 330)">ISBN 978-84</text>
+  </g>
+
+  <!-- Título -->
+  <text x="120" y="180" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24" letter-spacing="6" fill="#71717a">BACKEND · PYTHON</text>
+  <text x="118" y="250" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="#f4f4f5">Gestión de</text>
+  <text x="118" y="320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="url(#accent)">Biblioteca</text>
+
+  <text x="120" y="580" font-family="ui-monospace, Consolas, monospace" font-size="20" fill="#71717a">Python · POO · Préstamos y multas</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Blackjack en Python">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="-5%" r="95%">
+      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#f43f5e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#f4f4f5" stroke-opacity="0.04"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="#0b0b10"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+
+  <!-- Cartas -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+    <g transform="rotate(-8 790 320)">
+      <rect x="700" y="180" width="180" height="260" rx="18" fill="#f4f4f5"/>
+      <text x="726" y="240" font-size="44" font-weight="700" fill="#18181b">A</text>
+      <text x="726" y="300" font-size="44" fill="#18181b">♠</text>
+      <text x="854" y="416" font-size="44" font-weight="700" fill="#18181b" text-anchor="end">A</text>
+    </g>
+    <g transform="rotate(7 980 340)">
+      <rect x="890" y="200" width="180" height="260" rx="18" fill="#101014" stroke="#3f3f46"/>
+      <text x="916" y="260" font-size="44" font-weight="700" fill="#fb7185">K</text>
+      <text x="916" y="320" font-size="44" fill="#fb7185">♥</text>
+      <text x="1044" y="436" font-size="44" font-weight="700" fill="#fb7185" text-anchor="end">K</text>
+    </g>
+    <text x="885" y="530" font-family="ui-monospace, Consolas, monospace" font-size="24" fill="#a1a1aa" text-anchor="middle">21 · Blackjack</text>
+  </g>
+
+  <!-- Título -->
+  <text x="120" y="180" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24" letter-spacing="6" fill="#71717a">LÓGICA · JUEGO</text>
+  <text x="118" y="250" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="#f4f4f5">Blackjack</text>
+  <text x="118" y="320" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="58" font-weight="650" fill="url(#accent)">en Python</text>
+
+  <text x="120" y="580" font-family="ui-monospace, Consolas, monospace" font-size="20" fill="#71717a">Python · POO · Reglas de juego</text>
+</svg>
